@@ -1,0 +1,16 @@
+{
+  "name": "scope-pptx-service",
+  "version": "1.0.0",
+  "description": "Micro-service qui genere un fichier PPTX a partir d'un JSON de sections, pour le projet Scope",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pptxgenjs": "^3.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
